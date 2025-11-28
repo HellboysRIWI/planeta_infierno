@@ -6,7 +6,7 @@ nav ul {
     display: flex;
     gap: 20px;
     justify-content: flex-end;
-    background: rgba(80, 0, 0, 0.75); /* Rojo oscuro transparente */
+    background: rgba(90, 1, 1, 0.75); /* Rojo oscuro transparente */
 }
 
 /* Links rojos infernales */
