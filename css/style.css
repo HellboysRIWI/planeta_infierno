@@ -36,4 +36,58 @@ header{
 .sitio{
     display: flex;
 }
+.logo{
+ width: 100px;
+ height: 100px;
+}
+
+.infernal-footer {
+    background: rgba(80, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+    color: #ff3d3d;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: "Impact", "Arial Black", sans-serif;
+    border-top: 3px solid #b30000;
+
+}
+
+.infernal-footer .footer-content h3 {
+    font-size: 28px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.infernal-footer .footer-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ff5050;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #ff9e9e;
+    text-shadow: 0 0 10px #ff4d4d;
+}
+
+.footer-copy {
+    font-size: 12px;
+    opacity: 0.7;
+}
 
