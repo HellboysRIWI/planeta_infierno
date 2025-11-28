@@ -38,3 +38,7 @@ p:hover{
     padding: 8px 12px;
     font-weight: bold;
 }
+
+article{
+    padding: 20px;
+}
