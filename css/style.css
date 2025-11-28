@@ -1,12 +1,11 @@
 /* Menú infernal sin negro puro */
 nav ul {
     list-style: none;
-    margin: 0;
-    padding: 20px;
+    margin: 20px;
     display: flex;
     gap: 20px;
-    justify-content: flex-end;
     background: rgba(90, 1, 1, 0.75); /* Rojo oscuro transparente */
+    justify-content: space-between;
 }
 
 /* Links rojos infernales */
@@ -15,16 +14,80 @@ nav ul li a {
     text-decoration: none;
     font-size: 20px;
     font-weight: bold;
-    transition: 0.2s;
+    transition: 0.1s;
+}
+li {
+    margin: 30px;
 }
 
 nav ul li a:hover {
     color: #FFD700;
     text-shadow: 0 0 10px #FF4D00;
     transform: scale(1.1);
+    padding-top: 20px;
+    border: 10px solid orange;
+    border-radius: 8px;
 }
 header{
     display: flex;
     padding: 20px;
+}
+
+.sitio{
+    display: flex;
+}
+.logo{
+ width: 100px;
+ height: 100px;
+}
+
+.infernal-footer {
+    background: rgba(80, 0, 0, 0.7);
+    backdrop-filter: blur(6px);
+    color: #ff3d3d;
+    text-align: center;
+    padding: 40px 20px;
+    font-family: "Impact", "Arial Black", sans-serif;
+    border-top: 3px solid #b30000;
+
+}
+
+.infernal-footer .footer-content h3 {
+    font-size: 28px;
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.infernal-footer .footer-content p {
+    font-size: 14px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #ff5050;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.footer-links a:hover {
+    color: #ff9e9e;
+    text-shadow: 0 0 10px #ff4d4d;
+}
+
+.footer-copy {
+    font-size: 12px;
+    opacity: 0.7;
 }
 

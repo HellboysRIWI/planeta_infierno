@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    background-color: #0c0c0c;
+    font-family: "Impact", "Arial Black", sans-serif;
+    color: #F8E9D6;
+}
+
+/* Contenedor principal */
+.demon-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    padding: 40px;
+}
+
+/* Tarjetas */
+.card {
+    background: rgba(30, 30, 30, 0.85);
+    width: 330px;
+    border: 2px solid #4d0000;
+    border-radius: 12px;
+    padding: 18px;
+    transition: 0.25s ease-in-out;
+    border-radius: 20px;
+}
+
+/* Hover: borde + efecto luz */
+.card:hover {
+    border-color: #f51919;
+    transform: translateY(-8px);
+    box-shadow: 0 0 25px #000000a4;
+}
+
+/* Imagen */
+.demon-img {
+    width: 100%;
+    border-radius: 8px;
+    border: 2px solid #4d0000;
+    margin-bottom: 12px;
+}
+
+.card h2 {
+    text-align: center;
+    color: #ff0000;
+    margin-bottom: 10px;
+}
+
+.character-info p {
+    margin: 5px 0;
+}
+
+/* Texto */
+.card p {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+strong{
+    color: #ff0000;
+}
+
+/* Desactivar hover en esta página */
+.demon-container h1:hover,
+.demon-container h2:hover,
+.demon-container h3:hover {
+    color: inherit !important;
+    text-shadow: none !important;
+    transform: none !important;
+}
+
+

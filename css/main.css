@@ -1,5 +1,5 @@
 body {
-    margin: 0;
+    margin: 23px;
     background-image: url("../imagenes/Gemini_Generated_Image_v6xk3rv6xk3rv6xk.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -10,14 +10,24 @@ body {
 }
 
 /* Títulos con poder */
-h1, h2 {
+h1, h2, h3 {
     color: #FFD700; /* Dorado fuerte */
     text-shadow: 0 0 10px #FF4D00;
+    transition: 0.5s;
 }
+
+h1:hover, h2:hover, h3:hover {
+    color: rgb(255, 0, 0);
+}
+
 
 /* Texto */
 p {
     color: #F8E9D6; /* Legible pero temático */
+}
+
+p:hover{
+    color: darkred;
 }
 
 /* Botones Search */
@@ -27,4 +37,8 @@ p {
     border-radius: 6px;
     padding: 8px 12px;
     font-weight: bold;
+}
+
+article{
+    padding: 20px;
 }
